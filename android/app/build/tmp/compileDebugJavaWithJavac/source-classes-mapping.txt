@@ -1,0 +1,14 @@
+com/freshlay/MainApplication.java
+ com.freshlay.MainApplication
+ com.freshlay.MainApplication$1
+com/freshlay/ReactNativeFlipper.java
+ com.freshlay.ReactNativeFlipper
+ com.freshlay.ReactNativeFlipper$1
+ com.freshlay.ReactNativeFlipper$2
+ com.freshlay.ReactNativeFlipper$2$1
+com/freshlay/MainActivity.java
+ com.freshlay.MainActivity
+com/freshlay/BuildConfig.java
+ com.freshlay.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

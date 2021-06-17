@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.freshlay"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:13:5-79
+12-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:13:22-76
+13
+14    <application
+14-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:6:5-24:19
+15        android:name="com.freshlay.MainApplication"
+15-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:7:7-38
+16        android:allowBackup="false"
+16-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:11:7-34
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.3.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\1be83826333d1146e3386a2f4338d6b3\core-1.3.0\AndroidManifest.xml:24:18-86
+18        android:icon="@mipmap/ic_launcher"
+18-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:9:7-41
+19        android:label="@string/app_name"
+19-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:8:7-39
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:10:7-52
+21        android:supportsRtl="true"
+21-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:22:9-35
+22        android:theme="@style/AppTheme" >
+22-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:12:7-38
+23        <activity
+23-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:13:7-23:18
+24            android:name="com.freshlay.MainActivity"
+24-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:14:9-37
+25            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+25-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:16:9-86
+26            android:label="@string/app_name"
+26-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:15:9-41
+27            android:launchMode="singleTask"
+27-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:17:9-40
+28            android:windowSoftInputMode="adjustResize" >
+28-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:18:9-51
+29            <intent-filter>
+29-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:19:9-22:25
+30                <action android:name="android.intent.action.MAIN" />
+30-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:20:13-65
+30-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:20:21-62
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:21:13-73
+32-->E:\React native cli\FreshLo 2\Freshlay\Cashfree\android\app\src\main\AndroidManifest.xml:21:23-70
+33            </intent-filter>
+34        </activity>
+35
+36        <meta-data
+36-->[:react-native-pg-react-native-sdk] E:\React native cli\FreshLo 2\Freshlay\Cashfree\node_modules\react-native-pg-react-native-sdk\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:9-14:69
+37            android:name="com.google.android.gms.version"
+37-->[:react-native-pg-react-native-sdk] E:\React native cli\FreshLo 2\Freshlay\Cashfree\node_modules\react-native-pg-react-native-sdk\android\build\intermediates\library_manifest\release\AndroidManifest.xml:13:13-58
+38            android:value="@integer/google_play_services_version" />
+38-->[:react-native-pg-react-native-sdk] E:\React native cli\FreshLo 2\Freshlay\Cashfree\node_modules\react-native-pg-react-native-sdk\android\build\intermediates\library_manifest\release\AndroidManifest.xml:14:13-66
+39
+40        <provider
+40-->[:react-native-webview] E:\React native cli\FreshLo 2\Freshlay\Cashfree\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:9-20:20
+41            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+41-->[:react-native-webview] E:\React native cli\FreshLo 2\Freshlay\Cashfree\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:13:13-83
+42            android:authorities="com.freshlay.fileprovider"
+42-->[:react-native-webview] E:\React native cli\FreshLo 2\Freshlay\Cashfree\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:14:13-64
+43            android:exported="false"
+43-->[:react-native-webview] E:\React native cli\FreshLo 2\Freshlay\Cashfree\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:15:13-37
+44            android:grantUriPermissions="true" >
+44-->[:react-native-webview] E:\React native cli\FreshLo 2\Freshlay\Cashfree\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:13-47
+45            <meta-data
+45-->[:react-native-webview] E:\React native cli\FreshLo 2\Freshlay\Cashfree\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:13-19:63
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->[:react-native-webview] E:\React native cli\FreshLo 2\Freshlay\Cashfree\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:18:17-67
+47                android:resource="@xml/file_provider_paths" />
+47-->[:react-native-webview] E:\React native cli\FreshLo 2\Freshlay\Cashfree\node_modules\react-native-webview\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:17-60
+48        </provider>
+49
+50        <activity
+50-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:24:9-26:72
+51            android:name="com.cashfree.pg.ui.web_checkout.CFPaymentActivity"
+51-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:25:13-77
+52            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+52-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:26:13-69
+53        <activity
+53-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:27:9-29:66
+54            android:name="com.cashfree.pg.ui.CFResponseHandlerActivity"
+54-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:28:13-72
+55            android:theme="@style/Theme.AppCompat.Translucent" />
+55-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:29:13-63
+56        <activity
+56-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:30:9-32:66
+57            android:name="com.cashfree.pg.ui.upi.CFUPIPaymentActivity"
+57-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:31:13-71
+58            android:theme="@style/Theme.AppCompat.Translucent" />
+58-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:32:13-63
+59        <activity
+59-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:33:9-35:66
+60            android:name="com.cashfree.pg.ui.amazonpay.AmazonPayActivity"
+60-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:34:13-74
+61            android:theme="@style/Theme.AppCompat.Translucent" />
+61-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:35:13-63
+62        <activity
+62-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:36:9-38:66
+63            android:name="com.cashfree.pg.ui.gpay.GooglePayActivity"
+63-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:37:13-69
+64            android:theme="@style/Theme.AppCompat.Translucent" />
+64-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:38:13-63
+65        <activity
+65-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:39:9-41:66
+66            android:name="com.cashfree.pg.ui.phonepe.CFPhonePayActivity"
+66-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:40:13-73
+67            android:theme="@style/Theme.AppCompat.Translucent" />
+67-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:41:13-63
+68        <activity
+68-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:42:9-44:72
+69            android:name="com.cashfree.pg.ui.simulator.CFUPITestAppActivity"
+69-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:43:13-77
+70            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+70-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:44:13-69
+71        <activity
+71-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:45:9-47:66
+72            android:name="com.cashfree.pg.ui.simulator.CFUPITestActivity"
+72-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:46:13-74
+73            android:theme="@style/Theme.AppCompat.Translucent" />
+73-->[com.cashfree.pg:android-sdk:1.7.8] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\d92f36a7ff72a87cf5ca3d7afca09fdf\jetified-android-sdk-1.7.8\AndroidManifest.xml:47:13-63
+74        <activity
+74-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\78c38c7d4c39204d65cf196b885d8bdc\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+75            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+75-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\78c38c7d4c39204d65cf196b885d8bdc\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+76            android:excludeFromRecents="true"
+76-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\78c38c7d4c39204d65cf196b885d8bdc\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\78c38c7d4c39204d65cf196b885d8bdc\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\78c38c7d4c39204d65cf196b885d8bdc\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+79        <!--
+80            Service handling Google Sign-In user revocation. For apps that do not integrate with
+81            Google Sign-In, this service will never be started.
+82        -->
+83        <service
+83-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\78c38c7d4c39204d65cf196b885d8bdc\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+84            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+84-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\78c38c7d4c39204d65cf196b885d8bdc\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+85            android:exported="true"
+85-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\78c38c7d4c39204d65cf196b885d8bdc\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+86            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+86-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\78c38c7d4c39204d65cf196b885d8bdc\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\1f618c7c787acbb298d293db07456f99\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\1f618c7c787acbb298d293db07456f99\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\1f618c7c787acbb298d293db07456f99\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ahad\.gradle\caches\transforms-2\files-2.1\1f618c7c787acbb298d293db07456f99\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+92    </application>
+93
+94</manifest>
